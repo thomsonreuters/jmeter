@@ -86,7 +86,7 @@ PRGDIR=`dirname "$PRG"`
 
 # This is the base heap size -- you may increase or decrease it to fit your
 # system's memory availablity:
-HEAP="-Xms512m -Xmx512m"
+HEAP="-Xms512m -Xmx2048m"
 
 # There's an awful lot of per-sample objects allocated during test run, so we
 # need a large eden to avoid too frequent scavenges -- you'll need to tune this
