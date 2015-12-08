@@ -77,7 +77,7 @@ rem Unfortunately TechTips no longer seem to be available
 
 rem See the unix startup file for the rationale of the following parameters,
 rem including some tuning recommendations
-set HEAP=-Xms512m -Xmx512m
+set HEAP=-Xms512m -Xmx2048m
 set NEW=-XX:NewSize=128m -XX:MaxNewSize=128m
 set SURVIVOR=-XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=50%
 set TENURING=-XX:MaxTenuringThreshold=2
